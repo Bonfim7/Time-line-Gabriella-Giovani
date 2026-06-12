@@ -18,7 +18,11 @@
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero__content" data-reveal>
           <p class="eyebrow">Surpresa especial</p>
-          <h1 id="hero-title">{{ $couple['names'] }}</h1>
+          <h1 id="hero-title" class="hero__title">
+            <span>Feliz</span>
+            <span>Dia dos</span>
+            <span>Namorados</span>
+          </h1>
           <p class="hero__subtitle">{{ $couple['subtitle'] }}</p>
 
           <div class="hero__actions" aria-label="Atalhos da pagina">
